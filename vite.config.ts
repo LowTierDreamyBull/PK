@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: '/src/main.tsx',  // اطمینان حاصل کنید که مسیر صحیح است
+      input: 'src/main.tsx',  // مسیر نسبی به جای مطلق
     },
   },
 });
